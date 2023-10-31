@@ -7,7 +7,7 @@ AWS Lambda function to resize images present in AWS S3
 
 # Setup
 ```
-git clone https://github.com/sarthakj178/aws-lambda-image-resize.git
+git clone https://github.com/mina178/aws-lambda-image-resize.git
 cd aws-lambda-image-resize
 npm install
 npm remove --save sharp
