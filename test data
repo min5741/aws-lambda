@@ -1,0 +1,12 @@
+{
+    "sourceS3": {
+        "bucket": "clappia",
+        "key": "images/test.JPG"
+    }, "destinationS3": {
+        "bucket": "clappia",
+        "key": "images-compressed/test.JPG"
+    },
+    "minWidthPixels": 400,
+    "resizeRatio": 0.2
+}
+ 
