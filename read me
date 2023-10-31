@@ -1,0 +1,22 @@
+am local invoke ResizeImageFunction  --event test-data/resize_image.json 
+```
+
+# Examples
+* Original Image - examples/images/test.JPG (2.9 MB, 4000x3000)
+* Resized Image - examples/images-compressed/test.JPG (48 KB, 800x600)
+
+test-data/resize_image.json
+{
+    "sourceS3": {
+        "bucket": "clappia",
+        "key": "images/test.jpg"
+        "key": "images/test.JPG"
+    }, "destinationS3": {
+        "bucket": "clappia",
+        "key": "images-compressed/test.jpg"
+        "key": "images-compressed/test.JPG"
+    },
+    "minWidthPixels": 16000,
+    "resizeRatio": 0.5
+    "minWidthPixels": 400,
+    "resizeRatio": 0.2
